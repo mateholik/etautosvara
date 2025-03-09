@@ -2,17 +2,75 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Auto Estetika Vilniuje</title>
 
+    <title>ET auto švara | Automobilių Poliravimas ir Salono Valymas</title>
+
+    <meta
+      name="description"
+      content="ET auto švara – profesionalus automobilių poliravimas, keramikinės dangos padengimas ir salono valymas. Aukščiausia kokybė ir patikimumas. Skambinkite: +370 6 06 47 967"
+    />
+    <meta
+      name="keywords"
+      content="automobilio poliravimas, salono valymas, keramikinės dangos, Vilnius, auto estetika"
+    />
+    <meta name="author" content="ET auto švara" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://etautosvara.lt/" />
+
+    <!-- Open Graph (Facebook & LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="ET auto švara | Automobilių Poliravimas ir Salono Valymas"
+    />
+    <meta
+      property="og:description"
+      content="ET auto švara – profesionalus automobilių poliravimas, keramikinės dangos padengimas ir salono valymas. Aukščiausia kokybė ir patikimumas. Skambinkite: +370 6 06 47 967"
+    />
+    <meta property="og:image" content="https://etautosvara.lt/og-image.jpg" />
+    <meta property="og:url" content="https://etautosvara.lt/" />
+    <meta property="og:site_name" content="ET auto švara" />
+    <meta property="og:locale" content="lt_LT" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "ET auto švara",
+        "description": "Profesionalus automobilių poliravimas, salono valymas ir keramikinės dangos padengimas Vilniuje.",
+        "url": "https://etautosvara.lt/",
+        "telephone": "+37060647967",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Saulėtoji g. 8, Ližiškės",
+          "addressLocality": "Vilnius",
+          "addressCountry": "LT"
+        },
+        "image": "https://etautosvara.lt/logo.png",
+        "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-15:00",
+        "sameAs": ["https://www.facebook.com/etautosvara"]
+      }
+    </script>
   </head>
+
   <body class="bg-gray-50">
     <div id="app">
       <!-- Navbar -->
@@ -34,14 +92,26 @@
           <!-- Nav Links for Desktop -->
           <ul class="hidden md:flex space-x-6">
             <li>
-              <a href="#services" class="hover:text-red-500">Paslaugos</a>
+              <a href="#services" class="hover:text-red-500 uppercase"
+                >Paslaugos</a
+              >
             </li>
-            <li><a href="#why-us" class="hover:text-red-500">Kodėl Mes</a></li>
+            <li>
+              <a href="#why-us" class="hover:text-red-500 uppercase"
+                >Kodėl Mes</a
+              >
+            </li>
 
             <li>
-              <a href="#reviews" class="hover:text-red-500">Atsiliepimai</a>
+              <a href="#reviews" class="hover:text-red-500 uppercase"
+                >Atsiliepimai</a
+              >
             </li>
-            <li><a href="#contact" class="hover:text-red-500">Kontaktai</a></li>
+            <li>
+              <a href="#contact" class="hover:text-red-500 uppercase"
+                >Kontaktai</a
+              >
+            </li>
           </ul>
 
           <!-- Mobile Menu Toggle -->
@@ -91,15 +161,18 @@
         <!-- Dark Overlay -->
         <div class="absolute inset-0 bg-black opacity-70"></div>
         <div class="relative z-10 text-center text-white">
-          <h1 class="text-4xl md:text-6xl font-bold mb-4">
-            Nepriekaištinga automobilio išvaizda
+          <h1
+            class="text-4xl md:text-6xl font-bold mb-4 uppercase md:leading-18"
+          >
+            Nepriekaištinga <br />
+            automobilio išvaizda
           </h1>
-          <p class="text-lg md:text-xl mb-8">
+          <p class="text-lg md:text-2xl mb-8">
             Salono Valymas, Kėbulo Poliravimas, Keramikinės Dangų Padengimas
           </p>
           <a
             href="tel:+37060647967"
-            class="bg-red-600 hover:bg-red-700 px-6 py-3 text-lg font-semibold rounded-lg"
+            class="bg-red-600 hover:bg-red-700 px-6 py-3 text-lg font-semibold rounded-lg inline-block"
             >+370 6 06 47 967</a
           >
         </div>
@@ -108,7 +181,7 @@
       <!-- Paslaugos Section -->
       <section id="services" class="py-16 md:py-24 bg-red-50">
         <div class="container mx-auto max-w-[1280px] px-4">
-          <h2 class="text-3xl font-bold text-center mb-6 md:mb-12">
+          <h2 class="text-3xl font-bold text-center mb-6 md:mb-12 uppercase">
             Mūsų Paslaugos
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -142,7 +215,7 @@
       <!-- Kodėl Mes Section (3 Stulpeliai) -->
       <section id="why-us" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto text-center max-w-[1280px] px-4">
-          <h2 class="text-3xl font-bold mb-6 md:mb-12">Kodėl Mes?</h2>
+          <h2 class="text-3xl font-bold mb-6 md:mb-12 uppercase">Kodėl Mes?</h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-blue-50 p-6 rounded-lg shadow-lg">
               <h3 class="text-2xl font-bold mb-4">Patikimumas</h3>
@@ -172,7 +245,9 @@
       <!-- Atsiliepimai Section -->
       <section id="reviews" class="py-16 md:py-24 bg-red-50">
         <div class="container mx-auto text-center max-w-[1280px] px-4">
-          <h2 class="text-3xl font-bold mb-6 md:mb-12">Klientų Atsiliepimai</h2>
+          <h2 class="text-3xl font-bold mb-6 md:mb-12 uppercase">
+            Klientų Atsiliepimai
+          </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-white p-6 rounded-lg shadow-lg">
               <p class="text-lg">
@@ -195,7 +270,7 @@
       <!-- Kontaktai Section -->
       <section id="contact" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto text-center max-w-[1280px] px-4">
-          <h2 class="text-3xl font-bold mb-6 md:mb-12">Kontaktai</h2>
+          <h2 class="text-3xl font-bold mb-6 md:mb-12 uppercase">Kontaktai</h2>
           <p class="text-lg">
             Susisiekite su mumis arba registruokite savo automobilį:
           </p>
@@ -214,7 +289,7 @@
       <footer class="bg-black text-white py-6">
         <div class="container mx-auto text-center max-w-[1280px] px-4">
           <p>
-            &copy; 2024 Automobilio Estetika Vilniuje. Visos teisės saugomos.
+            &copy; 2025 Automobilio Estetika Vilniuje. Visos teisės saugomos.
           </p>
         </div>
       </footer>
